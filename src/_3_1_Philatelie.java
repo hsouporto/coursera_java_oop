@@ -151,7 +151,7 @@ class Commemoratif extends Timbre{
 	}
 }
 
-class Philatelie {
+class _3_1_Philatelie {
 
     public static void main(String[] args) {
 

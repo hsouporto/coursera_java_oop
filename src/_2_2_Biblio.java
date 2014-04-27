@@ -133,7 +133,7 @@ class Bibliotheque{
 	}
 }
 
-public class Biblio {
+public class _2_2_Biblio {
 
     public static void afficherExemplaires(ArrayList<Exemplaire> exemplaires) {
         for (Exemplaire exemplaire : exemplaires) {

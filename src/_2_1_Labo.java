@@ -53,7 +53,7 @@ class Souris {
     }
 }
 
-public class Labo {
+public class _2_1_Labo {
 
     public static void main(String[] args) {
         Souris s1 = new Souris(50, "blanche", 2);

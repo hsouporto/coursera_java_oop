@@ -1,6 +1,3 @@
-/*******************************************
- * Completez le programme a partir d'ici.
- *******************************************/
 
 class Patient{
 	private double masse;
@@ -39,7 +36,7 @@ class Patient{
 	}
 }
 
-class Imc {
+class _1_1_Imc {
     public static void main(String[] args) {
 
         Patient quidam = new Patient();

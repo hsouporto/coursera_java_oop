@@ -147,7 +147,7 @@ class Cerveau{
 	}
 }
 
-public class SimulateurNeurone {
+public class _5_2_SimulateurNeurone {
 
     public static void main(String[] args) {
         // TEST DE LA PARTIE 1

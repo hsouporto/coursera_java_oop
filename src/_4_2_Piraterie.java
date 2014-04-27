@@ -1,4 +1,3 @@
-import javax.swing.UnsupportedLookAndFeelException;
 
 abstract class Navire{
 	private int x;
@@ -11,15 +10,15 @@ abstract class Navire{
 		if (x < 0){
 			x = 0;
 		}
-		if (x > Piraterie.MAX_X){
-			x = Piraterie.MAX_X;
+		if (x > _4_2_Piraterie.MAX_X){
+			x = _4_2_Piraterie.MAX_X;
 		}
 		y = py;
 		if (y < 0){
 			y = 0;
 		}
-		if (y > Piraterie.MAX_Y){
-			y = Piraterie.MAX_Y;
+		if (y > _4_2_Piraterie.MAX_Y){
+			y = _4_2_Piraterie.MAX_Y;
 		}
 		this.drapeau = drapeau;
 		this.detruit = false;
@@ -59,15 +58,15 @@ abstract class Navire{
 		if (x < 0){
 			x = 0;
 		}
-		if (x > Piraterie.MAX_X){
-			x = Piraterie.MAX_X;
+		if (x > _4_2_Piraterie.MAX_X){
+			x = _4_2_Piraterie.MAX_X;
 		}
 		y += unitsY;
 		if (y < 0){
 			y = 0;
 		}
-		if (y > Piraterie.MAX_Y){
-			y = Piraterie.MAX_Y;
+		if (y > _4_2_Piraterie.MAX_Y){
+			y = _4_2_Piraterie.MAX_Y;
 		}
 	}
 	
@@ -80,7 +79,7 @@ abstract class Navire{
 	}
 	
 	public void rencontre(Navire autre){
-		if (distance(autre) < Piraterie.RAYON_RENCONTRE && drapeau != autre.drapeau){
+		if (distance(autre) < _4_2_Piraterie.RAYON_RENCONTRE && drapeau != autre.drapeau){
 			combat(autre);
 		}
 	}
@@ -183,7 +182,7 @@ class Marchand extends Navire{
 	}
 }
 
-class Piraterie {
+class _4_2_Piraterie {
 
     static public final int MAX_X = 500;
     static public final int MAX_Y = 500;

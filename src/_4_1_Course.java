@@ -152,7 +152,7 @@ class GrandPrix extends Rallye{
 	
 }
 
-public class Course {
+public class _4_1_Course {
 
     public static void main(String[] args) {
 

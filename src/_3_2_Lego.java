@@ -134,7 +134,7 @@ class Construction{
 	}
 }
 
-class Lego {
+class _3_2_Lego {
 
     public static void main(String[] args) {
         // declare un jeu de construction de 10 pieces

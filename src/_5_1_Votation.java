@@ -225,7 +225,7 @@ class Utils {
  * Classe pour tester la simulation
  */
 
-class Votation {
+class _5_1_Votation {
 
     public static void main(String args[]) {
         // TEST 1

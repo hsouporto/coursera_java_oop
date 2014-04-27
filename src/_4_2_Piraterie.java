@@ -1,3 +1,6 @@
+/**
+ * @author Riabchenko Vlad
+ */
 
 abstract class Navire{
 	private int x;

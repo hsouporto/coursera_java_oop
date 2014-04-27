@@ -1,14 +1,59 @@
+/**
+ * @author Riabchenko Vlad
+ */
+
 import java.util.Scanner;
 
-/*******************************************
- * Completez le programme a partir d'ici.
- *******************************************/
+class Tirelire{
+	private double montant;
+	
+	public double getMontant(){
+		return montant;
+	}
+	
+	public void afficher(){
+		if (montant > 0){
+			System.out.println("Vous avez : " + montant + " euros dans votre tirelire");
+		}
+		else{
+			System.out.println("Vous êtes sans le sous.");
+		}
+	}
+	
+	public void secouer(){
+		if (montant > 0){
+			System.out.println("Bing bing");
+		}
+	}
+	
+	public void remplir(double montant){
+		if (montant >= 0){
+			this.montant = montant;
+		}
+	}
+	
+	public void vider() {
+		montant = 0;
+	}
+	
+	public void puiser(double montantExige){
+		if (montantExige > 0){
+			montant -= montantExige;
+			montant = montant > 0 ? montant : 0;
+		}
+	}
+	
+	public double calculerSolde(double budget){
+		if (budget > 0){
+			return montant - budget;
+		}
+		else{
+			return montant;
+		}
+	}
+}
 
-
-/*******************************************
- * Ne rien modifier apres cette ligne.
- *******************************************/
-public class _1_2TestTirelire {
+public class _1_2_TestTirelire {
 
     public static void main(String[] args) {
         Tirelire piggy = new Tirelire();

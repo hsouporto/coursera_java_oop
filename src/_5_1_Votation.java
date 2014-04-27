@@ -1,3 +1,7 @@
+/**
+ * @author Riabchenko Vlad
+ */
+
 import java.util.ArrayList;
 import java.util.Random;
 

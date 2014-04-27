@@ -1,3 +1,7 @@
+/**
+ * @author Riabchenko Vlad
+ */
+
 class Souris {
 
     public static final int ESPERANCE_VIE_DEFAUT = 36;

@@ -1,3 +1,6 @@
+/**
+ * @author Riabchenko Vlad
+ */
 
 class Patient{
 	private double masse;

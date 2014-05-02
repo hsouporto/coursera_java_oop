@@ -1,6 +1,6 @@
 ## coursera_java_oop
 
-### Les devoirs du course "Introduction à la programmation orientée objet (en Java)" by [EPFL](http://www.epfl.ch) on [Coursera](http://coursera.org).
+### Les devoirs du course "Introduction à la programmation orientée objet (en Java)" par [EPFL](http://www.epfl.ch) sur [Coursera](http://coursera.org).
 
 ---
 

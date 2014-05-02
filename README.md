@@ -20,6 +20,6 @@
 - Rallyes
 - Bataille navale
 
-### Devoir 5 (noté) : Synthèse 
+### Devoir 5 : Synthèse 
 - Elections
 - Neurones
